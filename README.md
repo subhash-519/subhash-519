@@ -1,86 +1,181 @@
 ![logo](https://github.com/subhash-519/subhash-519/blob/main/banner.png)
 <h1 align="center">Hi 👋, I'm Subhash Kumar</h1>
-<h3 align="center">Java Backend Developer | Spring Boot • System Design • Multi-Tenant Architecture</h3>
+
+<h3 align="center">
+Java Backend Developer | Spring Boot • Backend Architecture • Multi-Tenant Systems
+</h3>
 
 <p align="center">
   <i>"Code is not just instructions to a machine — it's a reflection of thought, creativity, and purpose."</i>
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:subhash010727@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"></a>
+  <a href="https://www.linkedin.com/in/subhash-kumar-3b0105264/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:subhashkumar89519@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://leetcode.com/u/subhash-519/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="https://github.com/subhash-519">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://drive.google.com/file/d/1LUSw37jZFiLWxYS8wxTq4z1i6fw-BPGJ/view?usp=drivesdk">
+    <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"/>
+  </a>
 </p>
 
 ---
 
-### 🚀 About Me
+## 🚀 About Me
 
-- 🎓 **B.Tech in Computer Science & Engineering**, Roorkee College of Engineering (2022–2026) — CGPA 7.98/10
+- 🎓 **B.Tech in Computer Science & Engineering** — Roorkee College of Engineering
+- 📊 **CGPA: 7.98/10 | First Division with Distinction**
 - 💼 Java Backend Developer specializing in **Spring Boot, Spring Security, Hibernate & JPA**
-- 🏗️ Strong grip on **layered architecture, DTO pattern, RBAC (JWT), and API design**
-- 🐳 Ship production-style backends with **Docker, AWS EC2, CI/CD & GitOps**
-- 🔍 Currently building **EduSphere** — a 21-module multi-tenant ERP, from architecture docs to production-grade testing
-- 📫 Reach me at **subhash010727@gmail.com**
+- 🏗️ Experienced with **Layered Architecture, Modular Monoliths, DTO Patterns, SOLID Principles, and REST API Design**
+- 🔐 Focused on **JWT Authentication, Role-Based Access Control (RBAC), Authorization, and API Security**
+- 🧪 Strong interest in **Automated Testing, Architecture Enforcement, and Code Quality**
+- 🐳 Experienced with **Docker, AWS EC2, CI/CD, GitHub Actions, and GitOps workflows**
+- 🔍 Currently building **EduSphere**, a multi-tenant Educational ERP with a modular backend architecture
 
 ---
 
-### 🏆 Featured Projects
+## 🏆 Featured Projects
 
-#### 🎓 [EduSphere – Multi-Tenant Educational ERP](https://github.com/subhash-519) `Jul 2026 – Ongoing`
-*Spring Boot · Java · PostgreSQL · Redis · JWT · Docker*
-- Designing a **21-module modular-monolith ERP** (Identity, Student, Faculty, Timetable, Attendance, Billing, Grading) with per-tenant **RBAC**
-- Enforced architecture boundaries with **ArchUnit**; code quality gated via **Spotbugs & Spotless**
-- **2,500+ unit tests, 730+ integration tests** — sustaining an **80% JaCoCo coverage** gate
-- Audited an earlier backend version, found **cross-tenant IDOR** and **cache isolation bypass** vulnerabilities, and rebuilt affected modules with tenant-scoped access control
-- Managed schema evolution with **Flyway**; documented via full SRS, Architecture, API & DB design specs
+### 🎓 EduSphere — Multi-Tenant Educational ERP
 
-#### 🔧 [Roadside Assistance & Garage Booking Platform](https://github.com/subhash-519) `Nov 2025 – Jan 2026`
-*Spring Boot · Spring Security · MySQL · Docker · AWS EC2*
-- Built JWT-based RBAC REST APIs for **User, Garage Owner & Admin** modules
-- Feature-based modular design with clean layered architecture (controller → service → repository → DTO → entity)
-- Optimized MySQL queries with Hibernate/JPA, **cutting average API response time by 30%**
-- Dockerized & deployed on AWS EC2 with **GitHub Actions CI/CD + GitOps**; APIs documented via Swagger, tested via Postman
+> **Java • Spring Boot • PostgreSQL • Redis • JWT • Docker • Flyway**
 
-#### 📓 [Journal Management System](https://github.com/subhash-519) `Feb 2025 – Apr 2025`
-*Spring Boot · MongoDB Atlas · Kafka · JWT · AWS*
-- Secure digital journal backend with layered architecture + MongoDB Atlas
-- **Apache Kafka** for async processing of journal events & notifications
-- JWT-secured RBAC, email notifications via JavaMailSender, deployed on AWS
+- 🏗️ Building a **21-module modular-monolith ERP** covering Identity, Student, Faculty, Timetable, Attendance, Billing, and Grading domains
+- 🔐 Implemented **JWT-based authentication and tenant-level Role-Based Access Control**
+- 🧱 Enforced architectural boundaries using **ArchUnit**
+- 🔍 Integrated **SpotBugs and Spotless** for automated code-quality checks
+- 🧪 Built **2,500+ unit tests and 730+ integration tests**
+- 📊 Maintained an **80% JaCoCo coverage gate**
+- 🛡️ Identified and addressed multi-tenancy vulnerabilities including **cross-tenant IDOR and cache-isolation bypass**
+- 🗄️ Managed database schema evolution using **Flyway migrations**
+- 📚 Documented the system through **SRS, Architecture, API, and Database Design specifications**
 
 ---
 
-### 🛠️ Tech Stack
+### 🔧 Roadside Assistance & Garage Booking Platform
 
-**Languages:** ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+> **Java • Spring Boot • Spring Security • MySQL • Docker • AWS EC2**
 
-**Backend:** ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Hibernate](https://img.shields.io/badge/-Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) Spring Security · Spring Data JPA · REST APIs · Maven · Lombok
-
-**Architecture:** Layered Architecture · Modular Monolith · DTO Pattern · SOLID Principles · Microservices (basics)
-
-**Security:** JWT Authentication · Role-Based Access Control (RBAC) · Authorization
-
-**Database:** ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Cloud & DevOps:** ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) GitHub Actions · CI/CD · GitOps
-
-**Testing & Tools:** JUnit 5 · Mockito · Swagger (OpenAPI) · Postman · Git · Linux · SLF4J/Logback
-
-**Frontend (basics):** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) HTML · CSS
+- Built secure **RESTful APIs** using Spring Boot, Spring MVC, and Spring Security
+- Implemented JWT-based **RBAC** for User, Garage Owner, and Admin modules
+- Designed a feature-based modular backend using **Layered Architecture**
+- Structured modules across **Controller → Service → Repository → DTO → Entity**
+- Optimized MySQL queries using Hibernate and Spring Data JPA, reducing average API response time by **30%**
+- Applied **DTO patterns, SOLID principles, API validation, and global exception handling**
+- Wrote unit tests using **JUnit 5 and Mockito**
+- Containerized the application with **Docker** and deployed it on **AWS EC2**
+- Implemented CI/CD workflows using **GitHub Actions and GitOps**
+- Documented REST APIs using **Swagger / OpenAPI**
 
 ---
 
-### 📊 GitHub Stats
+### 📓 Journal Management System
+
+> **Java • Spring Boot • MongoDB Atlas • Apache Kafka • JWT • AWS**
+
+- Built a secure digital journal backend exposing RESTful APIs
+- Designed the application using a **Layered Monolith Architecture**
+- Implemented **JWT Authentication and Role-Based Authorization**
+- Integrated **Apache Kafka** for asynchronous journal-event and notification processing
+- Added email notifications using **JavaMailSender**
+- Used **MongoDB Atlas** for cloud-based data storage
+- Deployed the application on **AWS**
+
+---
+
+## 🛠️ Tech Stack
+
+### ☕ Language
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+</p>
+
+### ⚙️ Backend
+
+<p>
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge&logo=swagger&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
+</p>
+
+### 🏗️ Architecture & Design
+
+`Layered Architecture` • `Modular Monolith` • `DTO Pattern` • `SOLID Principles` • `Microservices (Basics)`
+
+### 🔐 Security
+
+`JWT Authentication` • `Role-Based Access Control (RBAC)` • `Authorization` • `API Validation`
+
+### 🗄️ Databases & Caching
+
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+</p>
+
+`SQL` • `Database Indexing` • `Entity Relationships`
+
+### 🧪 Testing & Code Quality
+
+<p>
+  <img src="https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mockito-6DB33F?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/JaCoCo-007396?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ArchUnit-000000?style=for-the-badge"/>
+</p>
+
+`SpotBugs` • `Spotless`
+
+### ☁️ Cloud & DevOps
+
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+</p>
+
+`CI/CD` • `GitOps` • `Flyway`
+
+### 🔧 Tools
+
+`Git` • `GitHub` • `Swagger / OpenAPI` • `Postman` • `Linux` • `SLF4J / Logback`
+
+---
+
+## 📚 Relevant Coursework
+
+`Data Structures & Algorithms` • `Database Management Systems` • `Operating Systems` • `Computer Networks` • `Object-Oriented Programming` • `Compiler Design` • `Software Engineering`
+
+---
+
+## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=subhash-519&show_icons=true&theme=radical" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=subhash-519&theme=radical" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=subhash-519&show_icons=true&theme=transparent&hide_border=true" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=subhash-519&theme=transparent&hide_border=true" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subhash-519&layout=compact&theme=radical" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subhash-519&layout=compact&theme=transparent&hide_border=true" height="165"/>
 </p>
 
 ---
 
-<p align="center"><i>Open to Java Backend / Full-Stack roles — let's connect!</i></p>
+<p align="center">
+  <i>Open to Java Backend and Software Engineering opportunities — let's connect! 🚀</i>
+</p>
