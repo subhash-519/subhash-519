@@ -112,7 +112,7 @@ Java Backend Developer | Spring Boot • Backend Architecture • Multi-Tenant S
 
 ### 🏗️ Architecture & Design
 
-`Layered Architecture` • `Modular Monolith` • `DTO Pattern` • `SOLID Principles` • `Microservices (Basics)`
+`Layered Architecture` • `Modular Monolith` • `DTO Pattern` • `SOLID Principles` • `Microservices`
 
 ### 🔐 Security
 
